@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hamming</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <h1>Кодирование Хэмминга</h1>
+    <p><input type = 'text' id = 'inpStr'/> Введите 4 бита</p>
+    <p><input type = 'button' value = 'Закодировать' onClick = 'code()'/></p>
+    <p><input type = 'text' id = 'codedStr'/> Закодированное сообщение</p>
+    <p><input type = 'button' value = 'Раскодировать' onClick = 'decode()'/></p>
+    <p><input type = 'text' id = 'decodedStr'/> Декодированное сообщение</p>
+    <p> <span id='Error'> </span></p>
+    <script src="/Users/sergey/Desktop/Hamming/script"></script>
+	<style>
+	.content {
+		margin: 10px;
+		}
+	.row {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	input[type="text"] {
+		background: rgb(220, 220, 220);
+		border: 3px solid #5F01B2;
+		font-family: Arial;
+		font-size: 14px;
+		max-width: 100%;
+		outline: none;
+		padding: 10px 20px;
+		width: 10%;
+		box-shadow: none;
+		border-radius: 5px;
+		margin-bottom: 5px;
+		font-weight: bold;
+	}
+	input[type="button"] {
+		font-weight: bold;
+		border-radius: 5px;
+		cursor: pointer;
+	}
+	label {
+		display: block;
+		font-weight: bold;
+		padding: 5px;
+	}
+    
+</body>
+</html>
